@@ -50,7 +50,7 @@ Install the dependent libraries as follows:
 pip install torch==1.8.1+cu102 h5py ✅ 
 pip install imageio scikit-image ✅
 ```
-* Install pycuda (crucial) following:
+* Install pycuda (crucial) following: ✅
 https://documen.tician.de/pycuda/install.html 
 * Install torch_scatter following: ✅
 https://github.com/rusty1s/pytorch_scatter
@@ -165,7 +165,7 @@ pointnerf
     ├── MVSNet
     ├── nerfsynth
     ├── col_nerfsynth
-    ├── scannet
+    ├── scannet ✅
     ├── tanksntemples
 ```
 
