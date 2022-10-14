@@ -161,8 +161,8 @@ bash dev_scripts/dtu_test_inf/inftest_scan114.sh
 ```
 pointnerf
 ├── checkpoints
-│   ├── init
-    ├── MVSNet
+│   ├── init ✅
+    ├── MVSNet ✅
     ├── nerfsynth
     ├── col_nerfsynth
     ├── scannet ✅
