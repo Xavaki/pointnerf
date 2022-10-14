@@ -47,12 +47,12 @@ Install the dependent libraries as follows:
 
 * Install the dependent python libraries:
 ```
-pip install torch==1.8.1+cu102 h5py
-pip install imageio scikit-image
+pip install torch==1.8.1+cu102 h5py ✅ 
+pip install imageio scikit-image ✅
 ```
 * Install pycuda (crucial) following:
 https://documen.tician.de/pycuda/install.html 
-* Install torch_scatter following:
+* Install torch_scatter following: ✅
 https://github.com/rusty1s/pytorch_scatter
 
 We develope our code with pytorch1.8.1, pycuda2021.1, and torch_scatter 2.0.8
@@ -72,7 +72,7 @@ pointnerf
     │   │   │──nerf_synthetic
     │   │   │──nerf_synthetic_colmap
     ├── TanksAndTemple
-    ├── scannet
+    ├── scannet ✅
     │   │   │──scans 
     |   │   │   │──scene0101_04
     |   │   │   │──scene0241_01
@@ -114,7 +114,7 @@ Download and extract ScanNet by following the instructions provided at http://ww
   ```
 
 ## Point Initialization / Generalization:
-### &nbsp; Download pre-trained MVSNet checkpoints:
+### &nbsp; Download pre-trained MVSNet checkpoints: ✅
 We trained [MVSNet](https://github.com/xy-guo/MVSNet_pytorch) on DTU. You can Download ''MVSNet'' directory from 
 [google drive](https://drive.google.com/drive/folders/1xk1GhDhgPk1MrlX8ncfBz5hNMvSa9vS6?usp=sharing)
 and place them under '''checkpoints/'''
@@ -123,7 +123,7 @@ and place them under '''checkpoints/'''
 #####  &nbsp; Directly use our trained checkpoints files:
 Download ''init'' directory from 
 [google drive](https://drive.google.com/drive/folders/1xk1GhDhgPk1MrlX8ncfBz5hNMvSa9vS6?usp=sharing).
-and place them under '''checkpoints/'''
+and place them under '''checkpoints/''' ✅
 
 ##### &nbsp; Or train from scratch:
 Train for point features of 63 channels (as in paper) 
